@@ -1,0 +1,1 @@
+export const randomRgb = () => `rgb(${Math.random() * 256 | 0},${Math.random() * 256 | 0},${Math.random() * 256 | 0})`

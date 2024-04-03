@@ -1,0 +1,47 @@
+{
+  "name": "MapboxSceneEditor",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "jasmine --config=jasmine.json"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@mapbox/geojson-normalize": "^0.0.1",
+    "@tmcw/togeojson": "^5.8.1",
+    "@turf/projection": "^6.5.0",
+    "@turf/turf": "^6.5.0",
+    "@ykob/js-util": "^2.0.0",
+    "csv2geojson": "^5.1.2",
+    "d3": "^7.8.5",
+    "d3-dsv": "^3.0.1",
+    "element-plus": "^2.6.0",
+    "events": "^3.3.0",
+    "fflate": "^0.8.2",
+    "gl-matrix": "^3.4.3",
+    "lodash": "^4.17.21",
+    "mapbox-gl": "^2.15.0",
+    "osmtogeojson": "^3.0.0-beta.5",
+    "polytogeojson": "^0.0.1",
+    "postprocessing": "^6.35.3",
+    "shapefile": "^0.6.6",
+    "sharp": "^0.33.2",
+    "three": "^0.150.0",
+    "topojson-client": "^3.1.0",
+    "v-drag": "^3.0.9",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6",
+    "zstddec": "^0.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "jasmine": "^5.1.0",
+    "sass": "^1.71.1",
+    "vite": "^4.1.0",
+    "vite-plugin-glsl": "^1.1.2"
+  }
+}
