@@ -246,7 +246,6 @@ export default class MapboxThreeLayer extends BaseMercatorMeterProjectionModelCl
   }
 
   setMode (mode) {
-    this.control.setMode(mode);
     if (mode === 'default') {
       this.control.detach();
     } else if (this.isTransformMode()){
