@@ -277,7 +277,7 @@ export default class BaseMercatorMeterProjectionModelClass extends BaseThreeMode
                 const { _fov, _nearZ, _farZ, width, height, _camera } = this.map.transform;
                 
 
-                const projection = mat4.perspective(new Float32Array(16), _fov, width / height, _nearZ, _farZ);
+                const projection = mat4.perspective(new Float64Array(16), _fov, width / height, _nearZ, _farZ);
 
                 const projectionMatrix = new THREE.Matrix4().fromArray(projection);
                 const viewProjectionMatrix = new THREE.Matrix4().fromArray(matrix).multiply(translateScaleMatrix);
