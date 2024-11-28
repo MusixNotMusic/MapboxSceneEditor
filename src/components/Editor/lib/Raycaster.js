@@ -54,7 +54,7 @@ export class Raycaster extends EventEmitter{
         
         const cameraPosition = new THREE.Vector3().applyMatrix4(projectionMatrixInvert);
 
-        const mousePosition = new THREE.Vector3(mouse.x, mouse.y, 1).applyMatrix4(projectionMatrixInvert);
+        const mousePosition = new THREE.Vector3(mouse.x, mouse.y, 0.95).applyMatrix4(projectionMatrixInvert);
 
         const viewDirection = mousePosition.clone().sub(cameraPosition).normalize();
     
